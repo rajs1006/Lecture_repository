@@ -1,0 +1,113 @@
+Mathematical Foundations for Machine Learning Machine Learning Group 
+Institute of Software Engineering and Theoretical 
+Computer Science 
+Faculty IV, Technische Universit¨at Berlin 
+Prof. Dr. Klaus-Robert M¨uller 
+Day 1: Euclidean Vector Spaces 
+Homework 
+Solutions must be submitted on ISIS until tomorrow at 10am. 
+Exercise 1 (10 Points) 
+1. Let V be a real vector space. Which of the following statements is false? 
+.. For all v,w . V it holds that v + w = w + v 
+.. For all u, v,w . V it holds that (u + v) + w = u + (v + w) 
+.. For all u, v,w . V it holds that (uv)w = u(vw) 
+2. Which of the following sets together with standard addition and scalar multiplication does not form a real vector space? 
+.. The set of imaginary numbers {iy . C | y . R} 
+.. The set of real-valued, positive functions {f : Rn . [0,+8]} 
+.. The set of all polynomials of degree = n {f : R . R | f(x) = 
+..n
+p=0 apxp, ap . R} 
+3. Let V be a real vector space. Which of the following statements is true? 
+.. {v + w | v,w . V } = V 
+.. {v + w | v,w . V } = V × V 
+.. {.v | v . V, . . R} = R × V 
+4. Which of the following subsets of Rn is a vector subspace? 
+.. {x . Rn | x1 = . . . = xn} 
+.. {x . Rn | x21
+= x22 
+} 
+.. {x . Rn | x1 = 1} 
+5. Which of the following means that v1, . . . , vn, all vi /= 0 are linearly independent? 
+.. .1v1 + . . . + .nvn = 0 if and only if .1 = . . . = .n = 0 
+.. If .1 = . . . = .n = 0, then .1v1 + . . . + .nvn = 0 
+.. .1v1 + . . . + .nvn = 0 for all (.1, . . . , .n) . Rn 
+6. Which of the following vectors form a basis of the vector space of polynomials of degree 2? 
+.. f1(x) = x2 + x - 2, f2(x) = 2x2 + 2x - 4, f3(x) = 3x + 2 
+.. f1(x) = 5x2 - 2, f2(x) = 3x, f3(x) = 1 
+.. f1(x) = x2 + 3x + 1, f2(x) = x2 - 1, f3(x) = x + 1, f4(x) = x - 1 
+7. What is the dimension of the vector space {x . R3 | x1 + 2x2 = 0, x1 + x3 = 0}? 
+.. 1 .. 2 .. 3 
+8. Which of the following statements is true? 
+.. If <·, ·>: Rn×Rn . R defines a scalar product on Rn, then it holds that <x, y>= x1y1+. . .+xnyn for all x, y . Rn 
+.. <·, ·>: Rn × Rn . R with <x, y>:= x1y1 + . . . + xnyn for all x, y . Rn defines a scalar product on Rn. 
+.. In order for a mapping <·, ·>: Rn × Rn . R to define a scalar product on Rn, it is a necessary condition that 
+<ei, ej>= dij . (The Kronecker symbol dij is defined as dii := 1 and dij := 0 for i /= j.)
+
+9. Which of the following mappings does not define a scalar product on the vector space L2(R) of square-integrable 
+functions on R? 
+.. <f, g>:= 
+.. +8 
+-8 
+f(x)g(x)dx for all f, g . L2(R) 
+.. <f, g>:= 
+.. +8 
+-8 
+exp(-x2)f(x)g(x)dx for all f, g . L2(R) 
+.. <f, g>:= 
+.. +8 
+-8 
+(f(x) + g(x))dx for all f, g . L2(R) 
+10. Let V = R2 be a Euclidean vector space with the standard scalar product. Which of the following vectors form an 
+orthonormal basis? 
+.. 
+.. 
+1 
+-1 
+.. 
+, 
+.. 
+-1 
+-1 
+.. 
+.. 
+.. 
+1
+0 
+.. 
+, 
+.. 
+0 
+-1 
+.. 
+.. 
+.. 
+1
+0 
+.. 
+, 
+.. 
+0
+1 
+.. 
+, 
+.. 
+1
+1 
+.. 
+Exercise 2 (5 Points) 
+Let (V, <·, ·>) be a Euclidean vector space and let v1, . . . , vn . V be pairwise orthogonal vectors. Prove the following generalized 
+version of the Pythagorean theorem: .. .. .. .. .. 
+..n 
+i=1 
+vi
+.. .. .. .. .. 
+2 
+= 
+..n 
+i=1 
+..vi..2 
+Exercise 3 (5 Points) 
+Let V be a vector space and {v1, . . . , vn} . V a basis. This implies that v1, . . . , vn are linearly independent and any v . V 
+can be written as a linear combination of the vi, i.e., there exist .1, . . . , .n . R such that v = .1v1 + . . . + .nvn. 
+Show: For all v . V the .1, . . . , .n . R are uniquely determined.
+
